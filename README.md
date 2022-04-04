@@ -79,7 +79,7 @@ Or use it to inject into an existing container:
 
 ```dockerfile
 FROM my-awesome-container
-COPY --from gcr.io/oauth2l/oauth2l /bin/oauth2l /bin/oauth2l
+COPY --from=gcr.io/oauth2l/oauth2l /bin/oauth2l /bin/oauth2l
 ```
 
 Like the binary releases, the container images are tagged to match the
